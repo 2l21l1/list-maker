@@ -61,6 +61,6 @@ for password in range(amount):
         password += random.choice(chars2)
         
     print (uesr+password)
-    with open('users.txt', 'a') as x:
+    with open('list.txt', 'a') as x:
      x.write('\n' + password)
 
