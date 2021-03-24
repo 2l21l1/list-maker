@@ -5,5 +5,5 @@ A simple tool making a wordlist for checking
 # cd list-maker 
 # python solaxlist.py
 
- for help do- 
+# for help do- 
 python HELP.py
