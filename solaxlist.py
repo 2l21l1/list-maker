@@ -17,11 +17,12 @@ print ("""
                        by 2l21l1 in instagram 
 """)
 password = input("pls enter the tool password : ")
-if password == "sol":
-    ch()
-elif password == "solax":
-    time.sleep(2)
-    print ("pass is correct")
+if password == "solax":
+    print("pass is correct")
+    time.sleep(1)
+else:
+  print("wrong password")
+  exit()
 time.sleep(1)
 print ("""
 ────────╔╗──────────────╔╗─────╔╗╔╗──────╔╗──────╔╗
