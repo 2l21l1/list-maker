@@ -18,37 +18,25 @@ print ("""
 """)
 password = input("pls enter the tool password : ")
 if password == "solax":
+    time.sleep(2)
     print("pass is correct")
     time.sleep(1)
+    
 else:
   print("wrong password")
   exit()
 time.sleep(1)
-print ("""
-────────╔╗──────────────╔╗─────╔╗╔╗──────╔╗──────╔╗
-────────║║─────────────╔╝╚╗───╔╝╚╣║─────╔╝╚╗─────║║
-╔╗╔╗╔╦══╣║╔══╦══╦╗╔╦══╗╚╗╔╬══╗╚╗╔╣╚═╦══╗╚╗╔╬══╦══╣║
-║╚╝╚╝║║═╣║║╔═╣╔╗║╚╝║║═╣─║║║╔╗║─║║║╔╗║║═╣─║║║╔╗║╔╗║║
-╚╗╔╗╔╣║═╣╚╣╚═╣╚╝║║║║║═╣─║╚╣╚╝║─║╚╣║║║║═╣─║╚╣╚╝║╚╝║╚╗
-─╚╝╚╝╚══╩═╩══╩══╩╩╩╩══╝─╚═╩══╝─╚═╩╝╚╩══╝─╚═╩══╩══╩═╝ """)
-time.sleep(1)
-print ("")
-time.sleep (1)
-print ("""
-█▀ ▀█▀ ▄▀█ █▀█ ▀█▀ █ █▄░█ █▀▀   ▀█▀ █▀█ █▀█ █░░   █▀ ▀█
-▄█ ░█░ █▀█ █▀▄ ░█░ █ █░▀█ █▄█   ░█░ █▄█ █▄█ █▄▄   █▄ ▄█""")
-time.sleep (2)
-
 
 
 
 uesr = ''
 chars2 = 'abcdefghigklmnopqrstuvwxyz123456789_.' 
 amount = input("""
-how many numbers do you want [+]:""")
+[+] HOW MANY NUM DO YOU WANT : """)
+leng = input("[+] 5,4,3 letters? : ")
 amount = int(amount)
 
-length2 = ('4')
+length2 = (leng)
 length2 = int(length2)
 
 
