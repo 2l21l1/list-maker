@@ -52,4 +52,5 @@ for password in range(amount):
     print (uesr+password)
     with open('list.txt', 'a') as x:
      x.write('\n' + password)
-
+    
+input("[*] The List Has Been Saved In \"list.txt\" | Press Enter To Exit : ")
