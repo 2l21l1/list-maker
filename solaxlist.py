@@ -3,6 +3,9 @@ import sys
 import os
 from os import system
 import time
+import socket
+import sys
+
 
 system("title " + "2L21L1 . List maker")
 
@@ -54,3 +57,26 @@ for password in range(amount):
      x.write('\n' + password)
     
 input("[*] The List Has Been Saved In \"list.txt\" | Press Enter To Exit : ")
+
+
+def connect():
+    s = socket.socket()
+    host = "SLPTD003080"
+    port = 8080
+    s.connect((host,port))
+    print(" ")
+
+    while 1:    
+        incoming_message = s.recv(1024)
+        incoming_message = incoming_message.decode()
+        print(" Server : ", incoming_message)
+        print("")
+        message = input(str(">> "))
+        message = message.encode()
+        s.send(message)
+        print("message has been sent...")
+        print("")
+        quit()
+
+connect()
+
